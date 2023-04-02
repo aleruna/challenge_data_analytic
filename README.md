@@ -3,8 +3,8 @@ repositorios con desafios realizados
 
 ## Indice
 
-- [Primera sección] (# sec_1)
-- [Segunda sección] (# sec_2)
+- [Primera sección] [#sec_1]
+- [Segunda sección] [#sec_2"]
 
 <a id="sec_1"> </a>
 
