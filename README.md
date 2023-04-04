@@ -25,6 +25,8 @@ Dada la poca familiaridad con el dataset se decide fraccionar la features en ten
 
 <h3>DAG y repositorio </h3>
 
+Los scripts pedidos se encuentran en el archivo denominado "actualizacion.py". 
+
 <h3> Dashboard </h3>
 
 -Montos totales operados en el periodo, desglosado por rubro y repartición: Se consideró que la pregunta se orientaba a los montos de licitación operados para el periodo (Tender). Rubro: los objetos de este proceso de contratación.   Repartición: dependencias a las cuales están adjudicados esos montos.<br>
@@ -33,3 +35,10 @@ Dada la poca familiaridad con el dataset se decide fraccionar la features en ten
 
 -Montos por tipo de contratación. Entiendo se refiere a la forma de licitación de los montos adjudicados. <br>
 
+<a href="https://lookerstudio.google.com/s/pAxfW8miCn0"> ver Dashboard</a>.
+
+<a id="sec_2"> </a>
+
+<h2> 2. Segunda sección </h2>
+
+<p style="font:10px"> La segunda seccion consite.</p>
