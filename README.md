@@ -41,4 +41,11 @@ Los scripts pedidos se encuentran en el archivo denominado "actualizacion.py".
 
 <h2> 2. Segunda sección </h2>
 
-<p style="font:10px"> La segunda seccion consite.</p>
+<p style="font:10px"> La segunda seccion consite en la generacion de un modelo de prediccion de una base de propiedades. Se seleccionaron las viviendas correspondientes a Argentina, ubicadas en la Ciudad de Buenos Aires de tipo departamento en alquiler.</p>
+
+El modelo elegido para esta sección fue un modelo de Cuadrados Minimos Ordinarios (OLS). Se trabajó con dos metodologias de tratamiento, en la primera se buscaron por medio de regex palabras claves dentro de la discripcion(title) que pudieran contener información relevante sobre la vivienda (Balcon, cochera, subte, etc). Por otra parte al contar dos divisas distintas se procedío a normalizar mediante la conversion de una de ellas. Además se borraron los datos extremos de dos features, rooms y habitaciones, por contener anomalías en los datos. Tambien se dividieron en dummies los barrios y si eran alquileres temporales o no <br>
+Por otro lado, se decidio procesar los datos solamente utilizando dummies para los barrios, las divisas y el tipo de alquiler.<br> 
+
+El mejor ajuste fue de R2 0.5. 
+
+Para una mejora del modelo obtenido podrian realizarse modelos de Ridge o Lasso buscando el mejor hiperparámetro (alpha).  
